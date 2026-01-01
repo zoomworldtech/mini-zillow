@@ -1,12 +1,13 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: zoomworldtech/mini-zillow
   branch: main
 publish_mode: editorial_workflow
 media_folder: "assets/img/uploads"
 public_folder: "/assets/img/uploads"
 
-site_url: "https://example.com"
-logo_url: "https://app.netlify.com/icons/netlify.svg"
+site_url: "zillowhouselisting.netlify.app"
+logo_url: ""
 
 collections:
   - name: "listings"
