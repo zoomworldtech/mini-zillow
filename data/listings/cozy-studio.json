@@ -1,0 +1,20 @@
+{
+  "id": "cozy-studio",
+  "title": "Cozy Studio",
+  "price": 1427,
+  "currency": "$",
+  "beds": 0,
+  "baths": 1,
+  "sqft": 690,
+  "address": "5225 Verde Valley Ln APT 112",
+  "city": "Dallas",
+  "state": "TX",
+  "zip": "75254",
+  "status": "Active",
+  "createdAt": "2026-01-01T10:00:00Z",
+  "description": "Bright, open-plan studio with updated flooring, in-unit laundry, and a private balcony for morning coffee moments.",
+  "images": [
+    "/assets/img/sample3.svg",
+    "/assets/img/sample1.svg"
+  ]
+}

@@ -1,0 +1,10 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop stop-color="#1f4d8f" offset="0%"/>
+      <stop stop-color="#0f2b5d" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#g3)" rx="32"/>
+  <text x="50%" y="50%" fill="#ffffff" font-family="Arial, sans-serif" font-size="64" text-anchor="middle" font-weight="700">City Studio</text>
+</svg>

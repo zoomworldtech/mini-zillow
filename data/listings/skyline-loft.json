@@ -1,0 +1,20 @@
+{
+  "id": "skyline-loft",
+  "title": "Skyline Loft",
+  "price": 2895,
+  "currency": "$",
+  "beds": 2,
+  "baths": 2,
+  "sqft": 1340,
+  "address": "808 Market St Apt 12F",
+  "city": "San Francisco",
+  "state": "CA",
+  "zip": "94103",
+  "status": "Active",
+  "createdAt": "2026-03-02T09:30:00Z",
+  "description": "Sun-drenched corner loft with exposed concrete, smart home upgrades, and a wrap-around terrace overlooking downtown.",
+  "images": [
+    "/assets/img/sample1.svg",
+    "/assets/img/sample2.svg"
+  ]
+}

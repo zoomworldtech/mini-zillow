@@ -1,0 +1,11 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/application"
+  to = "/application.html"
+  status = 301
+
+[dev]
+  command = ""
+  port = 8888

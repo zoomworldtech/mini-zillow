@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rental Application | BlueRent</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a class="logo" href="/"><span>BR</span> BlueRent</a>
+      <div class="nav-links">
+        <a href="/listings.html">Listings</a>
+        <!-- <a href="/application.html">Apply</a>
+        <a class="button" href="/admin/">Admin</a> -->
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="section">
+      <div class="form-card">
+        <h1 id="application-heading" style="margin-top:0">Rental Application</h1>
+        <p class="alert info">Secure Netlify form. Required fields keep applications clean and consistent.</p>
+        <div id="success-box" class="alert success" style="display:none;" tabindex="-1">Thanks! Your application was submitted successfully.</div>
+        <form name="rental-application" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/application.html?success=true" class="form-grid" netlify>
+          <input type="hidden" name="form-name" value="rental-application">
+          <input type="hidden" name="listingId" value="">
+          <p style="display:none">
+            <label>Don’t fill this out if you’re human: <input name="bot-field"></label>
+          </p>
+
+          <label>Email (required)
+            <input type="email" name="email" required>
+          </label>
+
+          <div class="inline-field">
+            <span style="font-weight:700;">Do you have any pet? *</span>
+            <label><input type="radio" name="pet" value="Yes" required> Yes</label>
+            <label><input type="radio" name="pet" value="No"> No</label>
+          </div>
+
+          <label>Applicant 1: Email address (required)
+            <input type="email" name="applicant1Email" required>
+          </label>
+
+          <label>Applicant 1: Phone number (required)
+            <input type="tel" name="applicant1Phone" required>
+          </label>
+
+          <div class="inline-field">
+            <span style="font-weight:700;">How do you want to make your 80 application fee (Refundable...) *</span>
+            <label><input type="radio" name="applicationFeeMethod" value="Cashapp" required> Cashapp</label>
+            <label><input type="radio" name="applicationFeeMethod" value="Paypal"> Paypal</label>
+            <label><input type="radio" name="applicationFeeMethod" value="Bank Transfer"> Bank Transfer</label>
+            <label><input type="radio" name="applicationFeeMethod" value="Apple Pay"> Apple Pay</label>
+          </div>
+
+          <label>Applicant 1: Full name (required)
+            <input type="text" name="applicant1Name" required>
+          </label>
+
+          <label>When is the most convenient time for you to have a (viewing, oral interview, signing of documents)? (required)
+            <input type="text" name="convenientTime" required>
+          </label>
+
+          <label>Your Desired move in Date (required date)
+            <input type="date" name="moveInDate" required>
+          </label>
+
+          <label>When do you need your approval letter? (required)
+            <input type="text" name="approvalLetterTiming" required>
+          </label>
+
+          <div class="inline-field">
+            <span style="font-weight:700;">Do you promise to take good care of our property? *</span>
+            <label><input type="radio" name="carePromise" value="Yes" required> Yes</label>
+            <label><input type="radio" name="carePromise" value="No"> No</label>
+          </div>
+
+          <label>You pay Application fee £80 Now to turn in your application for approval (required text)
+            <input type="text" name="applicationFeeAgreement" required>
+          </label>
+
+          <label>How long do you intend to stay? (required)
+            <input type="text" name="stayLength" required>
+          </label>
+
+          <label>How soon do you want the keys? (required)
+            <input type="text" name="keysTimeline" required>
+          </label>
+
+          <label>How soon can you make your deposit? (required)
+            <input type="text" name="depositTimeline" required>
+          </label>
+
+          <label>How many adults will be moving in? (required number)
+            <input type="number" name="adultCount" min="1" required>
+          </label>
+
+          <div class="inline-field">
+            <span style="font-weight:700;">You have pay for the security deposit as soon you receive your approval? *</span>
+            <label><input type="radio" name="depositCommitment" value="Yes" required> Yes</label>
+            <label><input type="radio" name="depositCommitment" value="No"> No</label>
+          </div>
+
+          <button class="button" type="submit">Submit application</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">Secure Netlify Forms submission</footer>
+  <script src="/assets/js/application.js"></script>
+</body>
+</html>

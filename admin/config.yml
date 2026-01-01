@@ -1,0 +1,66 @@
+backend:
+  name: git-gateway
+  branch: main
+publish_mode: editorial_workflow
+media_folder: "assets/img/uploads"
+public_folder: "/assets/img/uploads"
+
+site_url: "https://example.com"
+logo_url: "https://app.netlify.com/icons/netlify.svg"
+
+collections:
+  - name: "listings"
+    label: "Listings"
+    label_singular: "Listing"
+    folder: "data/listings"
+    create: true
+    slug: "{{id}}"
+    extension: "json"
+    format: "json"
+    editor:
+      preview: false
+    fields:
+      - {
+          label: "ID (slug)",
+          name: "id",
+          widget: "string",
+          hint: "Unique slug used in URL",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Price", name: "price", widget: "number" }
+      - { label: "Currency", name: "currency", widget: "string", default: "$" }
+      - { label: "Beds", name: "beds", widget: "number" }
+      - { label: "Baths", name: "baths", widget: "number" }
+      - { label: "Square Feet", name: "sqft", widget: "number" }
+      - { label: "Address", name: "address", widget: "string" }
+      - { label: "City", name: "city", widget: "string" }
+      - { label: "State", name: "state", widget: "string" }
+      - { label: "Zip", name: "zip", widget: "string" }
+      - { label: "Status", name: "status", widget: "string", default: "Active" }
+      - { label: "Created At", name: "createdAt", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "text" }
+      - label: "Images"
+        name: "images"
+        widget: "list"
+        summary: "{{fields.image}}"
+        field:
+          label: Image
+          name: image
+          widget: image
+          media_folder: "/assets/img/uploads"
+          public_folder: "/assets/img/uploads"
+  - name: "manifest"
+    label: "Listings Manifest"
+    files:
+      - label: "Manifest"
+        name: "index"
+        file: "data/listings/index.json"
+        fields:
+          - label: "Listings files"
+            name: "files"
+            widget: "list"
+            summary: "{{fields.filename}}"
+            field:
+              label: "Filename"
+              name: "filename"
+              widget: "string"

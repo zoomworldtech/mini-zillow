@@ -1,0 +1,20 @@
+{
+  "id": "lakeside-condo",
+  "title": "Lakeside Condo",
+  "price": 2180,
+  "currency": "$",
+  "beds": 2,
+  "baths": 2,
+  "sqft": 1100,
+  "address": "44 Shoreline Dr Unit 304",
+  "city": "Minneapolis",
+  "state": "MN",
+  "zip": "55401",
+  "status": "Active",
+  "createdAt": "2026-02-12T14:00:00Z",
+  "description": "Waterfront-facing condo with floor-to-ceiling windows, secure parking, and access to a resident-only fitness studio.",
+  "images": [
+    "/assets/img/sample2.svg",
+    "/assets/img/sample1.svg"
+  ]
+}

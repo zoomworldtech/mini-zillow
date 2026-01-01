@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listing Details | BlueRent</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a class="logo" href="/"><span>BR</span> BlueRent</a>
+      <div class="nav-links">
+        <a href="/listings.html">Listings</a>
+        <a class="button" href="/listings.html" >Browse Listings</a>
+        <!-- <a href="/application.html">Apply</a>
+        <a class="button" href="/admin/">Admin</a> -->
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="section">
+      <div class="gallery">
+        <div id="gallery-track" class="gallery-track"></div>
+        <button id="gallery-prev" class="prev" aria-label="Previous image">‹</button>
+        <button id="gallery-next" class="next" aria-label="Next image">›</button>
+      </div>
+    </section>
+    <section class="section" id="listing-container"></section>
+  </main>
+  <footer class="footer">Book a tour and apply directly online</footer>
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/listing.js"></script>
+</body>
+</html>

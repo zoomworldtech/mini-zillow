@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browse Rentals | BlueRent</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a class="logo" href="/"><span>BR</span> BlueRent</a>
+      <div class="nav-links">
+        <a href="/listings.html">Listings</a>
+        
+        <!-- <a href="/application.html">Apply</a>
+        <a class="button" href="/admin/">Admin</a> -->
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="section">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;">
+        <div>
+          <h1 style="margin:0 0 0.25rem">Available rentals</h1>
+          <p style="margin:0;color:var(--neutral-500);">Sorted by newest first. Managed via Decap CMS.</p>
+        </div>
+        <span id="result-count" class="badge">0 results</span>
+      </div>
+      <div class="search-bar" style="margin:1rem 0;">
+        <input id="search-input" type="search" placeholder="Search by title, address, city, or state" />
+        <div class="alert info" id="listings-notice">Type to filter instantly.</div>
+      </div>
+      <div id="listings-grid" class="card-grid"></div>
+    </section>
+  </main>
+  <footer class="footer">Blue and white rental experience built for Netlify</footer>
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/listings.js"></script>
+</body>
+</html>
