@@ -2,7 +2,7 @@ backend:
   name: github
   repo: zoomworldtech/mini-zillow
   branch: main
-  base_url: https://oauth-zillow.netlify.app
+  base_url: https://netlify-cms-oauth-git-main-zoomworldtechs-projects.vercel.app
 publish_mode: editorial_workflow
 media_folder: "assets/img/uploads"
 public_folder: "/assets/img/uploads"
