@@ -1,0 +1,23 @@
+{
+  "baths": 1,
+  "zip": "46601",
+  "price": 570,
+  "city": "South Bend",
+  "sqft": 700,
+  "currency": "$",
+  "state": "IN",
+  "beds": 1,
+  "status": "Active",
+  "address": "316 W Marion St #A",
+  "title": " Apartment for rent",
+  "images": [
+    "/assets/img/uploads/a1864d0765639a990dadf0086ade3281-cc_ft_576.webp",
+    "/assets/img/uploads/0cc202370d1aff55529c0c346f70e196-cc_ft_576.webp",
+    "/assets/img/uploads/c73423d49f804c39eb34f5fb8af3d8ab-cc_ft_576.webp",
+    "/assets/img/uploads/9cfcf76aee058ca0e857477b83068098-cc_ft_576.webp",
+    "/assets/img/uploads/1a856e7bff495166696fc59f5677f976-cc_ft_960.webp"
+  ],
+  "id": "Marion St",
+  "createdAt": "2026-01-01T11:01:00.000Z",
+  "description": "Steps from the Civic Theatre, Memorial Hospital, and all downtown has to offer. 5-minute drive to Notre Dame (1.7 miles).\n\nBeautiful and historic 1-bedroom apartment located in the Chapin Park Historic district.\n\n*9 ft ceilings\n*Ample storage \n*Direct access to a large, shared, fenced back yard\n*Hardwood Floors\n*Decorative Fireplace\n*Dishwasher\n*Shared Washer Dryer\n*Fully Furnished"
+}
