@@ -1,0 +1,19 @@
+{
+  "baths": 1,
+  "zip": "23455",
+  "price": 500,
+  "city": "street",
+  "sqft": 345,
+  "currency": "$",
+  "state": "adelaja",
+  "beds": 2,
+  "status": "Active",
+  "address": "30 darlington",
+  "title": "oak-street-apartment",
+  "images": [
+    "/assets/img/uploads/a1864d0765639a990dadf0086ade3281-cc_ft_576.webp"
+  ],
+  "id": "oak-street-apartment",
+  "createdAt": "2025-12-31T21:32:00.000Z",
+  "description": "perfctc cozy"
+}
